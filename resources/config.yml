@@ -1,0 +1,37 @@
+---
+# Copyright Zeyroz#0001
+# If you have any question contact me in discord | Si vous avez des question venez contactez moi sur discord
+
+# Config IP
+
+# If you have issue with the query (Server not found) set this to off
+# Si vous avez des problêmes avec le query (Le serveur que vous avez mis n'est pas trouvé) veuillez mettre l'option query à off
+query: "on"
+
+ip: "vasar.tk"
+port: "19132"
+
+# Config Message
+
+title: "Lobby"
+# Title of the form
+# Titre du formulaire
+
+content: "§d§l»§r§f Do you really want to be transfert on the lobby &n&n§d§l»§r§fNumber of player connected: §d{connected}&n&n&n&n&n"
+# Content of the form | {connected} to see the number of player on the lobby | &n to pass a line
+# Message affiché sur le form | {connected} afin de voir le nombre de joueur connecté sur le lobby | &n pour faire un retour à la ligne
+
+buttonyes: "Yes"
+# Content of the button yes
+# Message dans le bouton oui
+
+buttonno: "No"
+# Content of the button no
+# Message dans le bouton non
+
+# Config Error
+
+notaplayer: "Only players can execute this command"
+# Sender is not a player
+# La personne qui envois la commande n'est pas un joueur
+...

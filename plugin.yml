@@ -1,0 +1,17 @@
+name: Lobby
+author: Zeyroz#0001
+main: zeyroz\lobby\Main
+api: 4.0.0
+version: 1.0.0
+depend:
+  - FormAPI
+
+commands:
+  lobby:
+    description: Vous téléporter au lobby !
+    usage: /lobby
+    permission: lobby.cmd
+
+permissions:
+  lobby.cmd:
+    default: true
