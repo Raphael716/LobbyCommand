@@ -49,6 +49,7 @@ class Main extends PluginBase implements Listener{
             switch ($data) {
                 case 0:
                     $player->transfer($this->config["ip"], $this->config["port"]);
+					break;
                 case 1:
                     break;
             }
